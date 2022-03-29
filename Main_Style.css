@@ -1,0 +1,82 @@
+
+/* Sets an image for the background */
+html {
+    background-image: url(Media/Images/Background.webp);
+}
+
+/* Changes main body color to black */
+body {
+    background-color: black;
+    color: white;
+}
+
+main, footer{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header, .Nav ul, body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Logo {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    margin-left: 37px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 2px;
+}
+
+.Top_Span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28pt;
+    padding-left: 135px;
+    text-decoration: underline;
+}
+
+.Nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    background-color: blue;
+    padding-left: 75px;
+    margin: 0
+}
+.Nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+.Nav a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.Nav a:hover {
+    background-color: red;
+}
+
+.Social_Table {
+    width: 300px;
+}
+
+.Social_Table caption {
+    text-decoration: underline;
+    font-size: 25pt;
+    text-align: center;
+}
+.Social_Table a{
+    color: white;
+    font-size: 20pt;
+    padding-left: 15px;
+}
+
+.Footer {
+    padding-bottom: 10px;
+    font-size: 10pt;
+}

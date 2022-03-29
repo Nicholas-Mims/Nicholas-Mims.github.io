@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team 342 Home</title>
+        <meta charset="UTF-8">
+        <link href="Main_Style.css" rel="stylesheet">
+        <style>
+            .BasicInput {
+                background-color: ghostwhite;
+                color: black;
+            }
+
+            label{
+                font-size: 12pt;
+            }
+
+            p {
+                font-size: 16pt;
+            }
+
+            #submit {
+                background-color: khaki;
+                width: 100px;
+                height: 40px;
+                font-size: 12pt;
+            }
+        </style>
+    </head>
+    
+    <header>
+        <section>
+            <img src="Media/Images/Logo.jpg" id="Logo" class="Logo" alt="Site logo of Burn-E the team mascot">
+            <span class="Top_Span">
+                <!--Modify font size of the <span> element with CSS-->
+                Team 342 - The Burning Magnetos
+            </span>
+        </section>
+        <nav class="Nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section>
+        <h2>Contact:</h2>
+        <p>Want to contact the team? Send a message right here!</p>
+    </section>
+
+    <!--Add action and enctype (if necessary)-->
+    <form method="POST">
+        <p>Please give us your name so we can contact you properly.</p>
+        <label for="username">Name:</label><input type="text" class="BasicInput" id="username" name="username" required>
+        <p>Next, Please give us an Email address that we can contact you at.</p>
+        <label for="useremail">Email:</label><input type="email" class="BasicInput"  id="useremail" name="useremail" required>
+        <p>Please select a topic this form pertains to.</p>
+        <p><label for="Radio1">This Website</label><input type="radio" id="Radio1" name="Topic"></p>
+        <p><label for="Radio2">Team in General</label><input type="radio" id="Radio2" name="Topic"></p>
+        <p><label for="Radio3">Team member</label><input type="radio" id="Radio3" name="Topic"></p>
+        <p><label for="Radio4">Other</label><input type="radio" id="Radio4" name="Topic"></p>
+        <p>Finally, give us the comment or concern you have</p>
+        <label for="Comment">Comment/Concern:</label>
+        <p><textarea id="Comment" name="Comment" cols="100" rows="10"></textarea></p>
+        <label for="submit">Submit: </label><input type="submit" id="submit" name="submit">
+    </form>
+
+    <article>
+        <h2>Thank you for your submission!</h2>
+        <p>This is a smaller extension of the thank you above and what you can expect after submitting your comment/concern.<br></p>
+    </article>
+</main>
+
+<footer>
+    <table class="Social_Table">
+        <caption><strong>Social Media</strong></caption>
+        <tr>
+            <td><a href="https://facebook.com/Team342BurningMagnetos/">Facebook</a></td>
+            <td><a href="https://twitter.com/FRCBurnie">Twitter</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://youtube.com/channel/UC1hAPxir0pX4GvF_Jb_orTA">Youtube</a></td>
+            <td><a href="https://www.instagram.com/frcteam342/">Instagram</a></td>
+        </tr>
+    </table>
+    <h3 class="Footer">&copy; 2022 Nicholas Mims</h3>
+</footer>
+</html>
