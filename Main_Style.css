@@ -15,7 +15,11 @@ main, footer{
     padding-right: 20px;
 }
 
-header, .Nav ul {
+footer {
+    align-content: center;
+}
+
+header, .Nav ul, {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +79,9 @@ body {
 }
 
 .Social_Table {
-    width: 300px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Social_Table caption {
@@ -97,4 +103,14 @@ body {
 a {
     font-size: large;
     color: yellow;
+}
+
+.Social_Logos {
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.Yt_Logo {
+    height: 50px;
 }
