@@ -32,17 +32,21 @@
             width: 100%;
         }
 
-        .update_text {
-            padding-left: 5px;
+        .update_text_date {
+            text-decoration: underline;
+            padding-bottom: 5px;
+            font-weight: bold;
+            font-size: x-large;
         }
 
         .Update_Photo {
-            padding-left: 5px;
             width: 65%;
             max-width: 720px;
             max-height: 540px;
-            margin-left: auto;
-            margin-right: auto;
+            border-style: groove;
+            border-radius: 3px;
+            border-color: #F6F6F6;
+            margin-bottom: 5px;
         }
 
         p {
@@ -61,9 +65,9 @@
     </section>
     <nav class="Nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <a><li class="Currently_Selected"><p class="nav_link_text">Home</p></li></a>
+            <a href="about.html"><li><p class="nav_link_text">About</p></li></a>
+            <a href="contact.html"><li><p class="nav_link_text">Contact</p></li></a>
         </ul>
     </nav>
 </header>
@@ -86,13 +90,11 @@
         </p>
     </article>
 
-    <aside>
+    <aside style="text-align: center;">
         <h2 class="update_text">Most Recent Update:</h2>
-        <p class="update_text">
-            <strong>Febuary 14, 2022</strong> <br>
-            We are currently working on our robot for the 2022 season for the game <em>FIRST Rapid React</em> <br>
-            Here is a sneak peek at what we currently have done for our robot this season. <br>
-        </p>
+        <p class="update_text_date">February 14, 2022</p>
+        <p class="update_text">We are currently working on our robot for the 2022 season for the game <em>FIRST Rapid React</em> <br>
+            Here is a sneak peek at what we currently have done for our robot this season.</p>
         <img src="Media/Images/SneakPeek.jpg" class="Update_Photo" alt="A picture of the current painted and CNC'd sheet metal to decorate and make up our robot's frame">
     </aside>
 
@@ -109,11 +111,10 @@
         <caption><strong>Social Media</strong></caption>
         <tr>
             <td><a href="https://facebook.com/Team342BurningMagnetos/"><img class="Social_Logos" src="Media/Images/Facebook.png"></a></td>
-            <td><a href="https://twitter.com/FRCBurnie"><img class="Social_Logos" src="Media/Images/Twitter.png"></a></td>
             <td><a href="https://www.instagram.com/frcteam342/"><img class="Social_Logos" src="Media/Images/Instagram.png"></a></td>
         </tr>
         <tr>
-            <td colspan="3"><a href="https://youtube.com/channel/UC1hAPxir0pX4GvF_Jb_orTA"><img class="Yt_Logo" src="Media/Images/Youtube.png"></a></td>
+            <td colspan="2"><a href="https://youtube.com/channel/UC1hAPxir0pX4GvF_Jb_orTA"><img class="Yt_Logo" src="Media/Images/Youtube.png"></a></td>
         </tr>
     </table>
     <h3 class="Footer">&copy; 2022 Nicholas Mims</h3>

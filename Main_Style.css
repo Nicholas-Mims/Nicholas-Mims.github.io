@@ -1,7 +1,7 @@
 
 /* Sets an image for the background */
 html {
-    background-image: url(Media/Images/Background.webp);
+    background-image: url(Media/Images/Fire_BG.jpg);
 }
 
 /* Changes main body color to black */
@@ -19,7 +19,7 @@ footer {
     align-content: center;
 }
 
-header, .Nav ul, {
+header, .Nav ul {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +29,9 @@ body {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    border-style: groove;
+    border-radius: 3px;
+    border-color: #F6F6F6;
 }
 
 #Logo {
@@ -57,24 +60,39 @@ body {
 }
 
 .Nav {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16pt;
     background-color: blue;
     padding-left: 75px;
-    height: 30px;
-    margin-top: 80px;
+    height: 45px;
+    margin-top: 70px;
 }
+
+.Currently_Selected {
+    background-color: #b81d1d;
+}
+
+.nav_link_text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+}
+
 .Nav li {
     list-style-type: none;
     display: inline-block;
+    height: 45px;
 }
-.Nav a {
+.Nav li p{
     color: white;
+    position: relative;
+    bottom: 8px;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
 }
-.Nav a:hover {
+
+.Nav li:first-child {
+    margin-left: 5px;
+}
+.Nav li:hover:not(.Currently_Selected) {
     background-color: red;
 }
 
@@ -90,10 +108,9 @@ body {
     font-size: 25pt;
     text-align: center;
 }
-.Social_Table a{
-    color: white;
-    font-size: 20pt;
-    padding-left: 15px;
+
+.Social_Table td {
+    text-align: center;
 }
 
 .Footer {
