@@ -54,9 +54,13 @@
         p {
             font-size: large;
         }
-    </style>
-</head>
 
+       
+    </style>
+
+    <script src="Main_Script.js"></script>
+</head>
+<body onload="clock();">
 <header>
     <section class="Logo+Span">
         <img src="Media/Images/Logo.jpg" id="Logo" class="Logo" alt="Site logo of Burn-E the team mascot">
@@ -64,6 +68,7 @@
             <!--Modify font size of the <span> element with CSS-->
             Team 342 - The Burning Magnetos
         </span>
+        
     </section>
     <nav class="Nav">
         <ul>
@@ -72,6 +77,10 @@
             <a href="contact.html"><li><p class="nav_link_text">Contact</p></li></a>
         </ul>
     </nav>
+    
+    <div id="ClockContainer">
+        <p id="Clock"></p>
+    </div>
 </header>
 
 <main style="padding-top: 30px;">
@@ -121,4 +130,5 @@
     </table>
     <h3 class="Footer">&copy; 2022 Nicholas Mims</h3>
 </footer>
+</body>
 </html>
