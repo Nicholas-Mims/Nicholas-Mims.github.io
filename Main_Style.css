@@ -24,13 +24,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-style: groove;
-    border-radius: 3px;
     border-color: #F6F6F6;
 }
 
 header, .Nav ul {
     max-width: 100%;
-    margin-left: 0;
+}
+
+header {
+    position: relative;
+    bottom: 22px;
 }
 
 #ClockContainer {
@@ -75,14 +78,13 @@ header, .Nav ul {
 .Top_Span {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25pt;
-    padding-left: 10px;
     text-decoration: underline;
+    font-weight: normal;
+    margin-left: 155px;
+    text-align: center;
     position: relative;
     top: 30px;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 100%;
+    max-width: 100%;
 }
 
 .Nav {
@@ -98,6 +100,10 @@ header, .Nav ul {
     background-color: #b81d1d;
 }
 
+.Nav ul {
+    margin: 0 0 0 100px;
+}
+
 .nav_link_text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16pt;
@@ -111,10 +117,12 @@ header, .Nav ul {
 .Nav li p{
     color: white;
     position: relative;
-    bottom: 8px;
+    top: 8px;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Nav li:first-child {
