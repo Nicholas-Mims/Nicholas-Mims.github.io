@@ -81,6 +81,7 @@ header {
     text-decoration: underline;
     font-weight: normal;
     margin-left: 155px;
+    margin-right: 155px;
     text-align: center;
     position: relative;
     top: 30px;
@@ -130,6 +131,12 @@ header {
 }
 .Nav li:hover:not(.Currently_Selected) {
     background-color: red;
+}
+
+#Page_Title {
+    font-size: 24pt;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .Social_Table {
